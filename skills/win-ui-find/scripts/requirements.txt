@@ -1,0 +1,5 @@
+uiautomation>=2.0.18
+Pillow>=10.0.0
+# optional OCR backends (install at least one for fallback):
+# winocr>=0.0.14
+# rapidocr-onnxruntime>=1.3.24

@@ -1,0 +1,7 @@
+﻿.venv/
+__pycache__/
+*.pyc
+_*.json
+_*.log
+_logout_try*
+@AutomationLog.txt

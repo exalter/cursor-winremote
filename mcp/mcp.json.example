@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "winremote": {
+      "url": "http://<WINDOWS_LAN_IP>:8090/mcp",
+      "headers": {
+        "Authorization": "Bearer <WINREMOTE_AUTH_KEY>"
+      }
+    }
+  }
+}

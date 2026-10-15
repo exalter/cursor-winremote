@@ -1,0 +1,17 @@
+.DS_Store
+*.pyc
+__pycache__/
+.venv/
+venv/
+*.egg-info/
+.env
+.env.*
+*.toml
+!mcp/winremote.toml.example
+**/winremote.toml
+_*.json
+_*.log
+@AutomationLog.txt
+.idea/
+.vscode/
+*.swp

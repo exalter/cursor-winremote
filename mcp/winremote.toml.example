@@ -1,0 +1,14 @@
+# Пример конфига Windows-хоста: %USERPROFILE%\.config\winremote\winremote.toml
+# Скопировать, подставить длинный случайный auth_key, НЕ коммитить реальный ключ.
+
+[server]
+host = "0.0.0.0"
+port = 8090
+auth_key = "<WINREMOTE_AUTH_KEY>"
+
+[security]
+# Без этого удалённый клиент не видит Shell / FileRead / FileWrite / KillProcess.
+enable_tier3 = true
+
+# [tools]
+# exclude = []   # по умолчанию пусто; не режем admin-инструменты без причины
